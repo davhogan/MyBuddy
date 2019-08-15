@@ -163,7 +163,7 @@ fn main() {
     println!("The player continues to roll the die until they can't draw a new body part.");
     println!("First player to draw their Buddy wins");
     println!("It's you versus the AI good luck!");
-    println!("Enter any key to begin game:");
+    println!("Enter any character to begin game:");
 
      let mut input : String = read!();
 
@@ -173,7 +173,7 @@ fn main() {
         if turn > 0 {
             println!("\nYour turn");
 
-            println!("Enter any key to roll:");
+            println!("Enter any character to roll:");
             input = read!();
             println!("You Rolled:");
             human.take_turn();
