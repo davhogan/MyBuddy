@@ -1,5 +1,6 @@
 # MyBuddy
 This game is based off the child's game cootie.
+
 How to play Cootie: https://icebreakerideas.com/fun-games-to-play-at-home/   (Under Pencil Paper Games)
 
 MyBuddy is a simple game in which a die is rolled.
