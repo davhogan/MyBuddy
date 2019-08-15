@@ -1,4 +1,6 @@
 use rand::prelude::*;
+use std::thread::sleep;
+use std::{thread, time};
 #[macro_use] extern crate text_io;
 
 pub struct Player {
@@ -155,12 +157,13 @@ fn main() {
     println!("When the die is rolled if the body part hasn't been drawn then it is added to the drawing.");
     println!("The player continues to roll the die until they can't draw a new body part.");
     println!("First player to draw their Buddy wins");
-    println!("The game will atomatically play out. \nIt's you versus the AI good luck!");
+    println!("The game will automatically play out. \nIt's you versus the AI good luck!");
      println!("Enter any key to begin game:");
      let input : String = read!();
 
     //Play the game
     while !human.winner() || !ai.winner(){
+        sleep(time::Duration::from_millis(1000));
         if turn > 0 {
             println!("\nYour turn");
             println!("Your Buddy:");
