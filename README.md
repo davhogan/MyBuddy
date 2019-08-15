@@ -22,6 +22,6 @@ When the die is rolled if the body part hasn't been drawn then it is added to th
 The player continues to roll the die until they can't draw a new body part.
 First player to draw their Buddy wins.
 This version of the game is between the player and the AI.
-Because no actual strategy is involved when the game starts it automatically plays out. 
+
 
 [License](LICENSE)
